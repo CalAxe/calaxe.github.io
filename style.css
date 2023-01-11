@@ -22,8 +22,9 @@ h1, h3{
     display: inline
 }
 nav{
-text-align: right;
-margin: 0px 10px 10px auto
+    position: fixed;
+    top: 20;
+    right: 5;
 }
 a{
     margin: auto 20 auto 20;
@@ -37,4 +38,10 @@ tbody{
 }
 header, .header{
     display: inline;
+}
+#about{
+    position: absolute;
+    top: 0px;
+    left:auto;
+    right: auto;
 }
